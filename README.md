@@ -131,10 +131,9 @@ retention targets in the dataset.**
 ---
 
 ## Project Structure
-│
-├──Telco_Churn_Analysis.xlsx    # Main workbook
-├── dashboard_preview.png         # Dashboard screenshot
-└── README.md                     # This file
+- Telco_Churn_Analysis.xlsx    # Main workbook
+-  dashboard_preview.png         # Dashboard screenshot
+-   README.md                     # This file
 
 ---
 
