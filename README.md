@@ -3,6 +3,7 @@
 Interactive dashboard with slicers for Contract Type and 
 Internet Service — filters all charts simultaneously.
 
+#### Dashboard
 ![Dashboard](dashboard_preview.png)
 
 ## Project Overview
@@ -44,10 +45,14 @@ to churn, and why?**
 - Converted SeniorCitizen from 0/1 integers to Yes/No
 - Standardized text casing and trimmed whitespace
 - All steps documented in Applied Steps pane
-![Raw Data](raw_data.png)
 
-![Power Query Applied Steps](power_query_steps.png)
+#### Raw Data
+![Raw Data](Raw_data.png)
 
+#### Power Query Applied Steps
+![Power Query Applied Steps](power_query.png)
+
+#### Clean Data
 ![Clean Data](clean_data.png)
 
 ### Customer Segmentation
@@ -70,8 +75,10 @@ TotalCharges was excluded as it is mathematically derived
 from the two source columns and contains data quality 
 limitations for new customers.
 
+#### Customer Segment Formulation
 ![Customer Segment Formulation](segment_analysis.png)
 
+#### Conditional Formatting
 ![Conditional Formatting](conditional_formatting.png)
 
 ---
@@ -82,10 +89,13 @@ All categorical churn drivers analyzed individually against
 the Churn column using % of Row Total to identify which 
 factors correlate most strongly with customer departure.
 
+#### Pivot Table Analysis
 ![Pivot Table Analysis](pivot_tables.png)
 
+#### Retained vs Churned Comparison
 ![Retained vs Churned Comparison](retained_vs_churned.png)
 
+#### High Risk Profile Customer Analysis
 ![High Risk Profile Customer Analysis](high_risk_profile_analysis.png)
 
 ## Key Findings
@@ -155,9 +165,8 @@ retention targets in the dataset.**
 ---
 
 ## Project Structure
-- Telco_Churn_Analysis.xlsx    # Main workbook
--  dashboard_preview.png         # Dashboard screenshot
--   README.md                     # This file
+- Telco_Churn_Analysis.xlsx          
+-   README.md                    
 
 ---
 
