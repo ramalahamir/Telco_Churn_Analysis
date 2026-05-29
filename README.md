@@ -1,6 +1,9 @@
 # Telco Customer Churn Analysis — Excel
 
-![Dashboard Preview](dashboard_preview.png)
+Interactive dashboard with slicers for Contract Type and 
+Internet Service — filters all charts simultaneously.
+
+![Dashboard](dashboard_preview.png)
 
 ## Project Overview
 An end-to-end data analysis project examining customer churn 
@@ -41,6 +44,11 @@ to churn, and why?**
 - Converted SeniorCitizen from 0/1 integers to Yes/No
 - Standardized text casing and trimmed whitespace
 - All steps documented in Applied Steps pane
+![Raw Data](raw_data.png)
+
+![Power Query Applied Steps](power_query_steps.png)
+
+![Clean Data](clean_data.png)
 
 ### Customer Segmentation
 A 5-tier segmentation was developed using MonthlyCharges 
@@ -62,7 +70,23 @@ TotalCharges was excluded as it is mathematically derived
 from the two source columns and contains data quality 
 limitations for new customers.
 
+![Customer Segment Formulation](segment_analysis.png)
+
+![Conditional Formatting](conditional_formatting.png)
+
 ---
+
+### Pivot Table Analysis
+
+All categorical churn drivers analyzed individually against 
+the Churn column using % of Row Total to identify which 
+factors correlate most strongly with customer departure.
+
+![Pivot Table Analysis](pivot_tables.png)
+
+![Retained vs Churned Comparison](retained_vs_churned.png)
+
+![High Risk Profile Customer Analysis](high_risk_profile_analysis.png)
 
 ## Key Findings
 
